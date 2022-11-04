@@ -1,0 +1,12 @@
+dependencies {
+//    api("com.google.guava:guava")
+    api("org.apache.commons:commons-lang3:$commonsLang3Version")
+    api("org.slf4j:slf4j-api")
+    api("org.bouncycastle:bcprov-jdk15on:1.61")
+
+    compileOnly("com.fasterxml.jackson.core:jackson-databind")
+    compileOnly("org.projectlombok:lombok")
+    compileOnly "org.springframework.boot:spring-boot-starter-test"
+    compileOnly "com.fasterxml.jackson.core:jackson-databind"
+}
+description = "java-util"
